@@ -1,0 +1,84 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.package-lock.json
+.pnpm-debug.log
+
+# --- Env files ---
+.env
+.env.*.local
+.env.local
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+debug.log
+error.log
+
+# --- OS/System files ---
+.DS_Store
+Thumbs.db
+
+# --- Build outputs ---
+dist/
+build/
+.out/
+.next/
+.cache/
+.vite/
+.vscode/
+
+# --- Testing ---
+coverage/
+*.lcov
+.nyc_output/
+
+# --- React Vite ---
+*.tsbuildinfo
+
+# --- VS Code settings ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# --- SASS / Tailwind CSS Cache ---
+.sass-cache/
+.postcss-cache/
+tailwind.config.js.backup
+
+# --- Mongo/SQL Dumps ---
+dump.sql
+*.dump
+*.sqlite
+
+# --- IDEs and tooling ---
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+
+# --- Miscellaneous ---
+*.tgz
+*.pem
+*.crt
+*.key
+*.keystore
+temp/
+tmp/
+.cache-loader/
+
+# --- Images/videos/uploads ---
+uploads/
+public/static/uploads/
+public/media/
+
+# --- Optional: Ignore storybook build ---
+storybook-static/
