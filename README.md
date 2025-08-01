@@ -22,7 +22,7 @@ This is a modular and secure backend boilerplate built with Node.js and Express.
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/RAKESHKRAJEEV90/nodeJsScafold.git
    cd nodeJsScafold
 
    ```
